@@ -1,6 +1,6 @@
 # FUTURE_CS_02
 
-# Phishing Email Analysis
+Phishing Email Analysis
 # Tools Used
 
 Google Admin Toolbox Message Header Analyser — SPF, DKIM, DMARC results, routing, and delivery timing for all 10 samples
