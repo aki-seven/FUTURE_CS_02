@@ -1,14 +1,14 @@
 # FUTURE_CS_02
 
-Phishing Email Analysis
-Tools Used
+# Phishing Email Analysis
+# Tools Used
 
 Google Admin Toolbox Message Header Analyser — SPF, DKIM, DMARC results, routing, and delivery timing for all 10 samples
 Cisco Talos Intelligence — Sending IP reputation and network owner lookup for real received samples (E-01, E-02, E-03)
 Gmail "Show Original" — Raw header extraction for real received emails
 Public GitHub phishing datasets — Source for samples E-04 through E-10
 
-Analysis Approach
+# Analysis Approach
 
 Header extraction — Raw headers pasted into Google Admin Toolbox; SPF, DKIM, DMARC results recorded
 Sender domain check — Display name compared against actual sending domain in angle brackets
@@ -22,4 +22,5 @@ Fully passive and read-only. No links clicked, no attachments opened, no credent
 Repository Structure
 
 images/ — Screenshots used as evidence during analysis
+
 samples/ — The 10 email samples analysed
